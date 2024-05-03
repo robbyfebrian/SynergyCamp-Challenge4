@@ -1,12 +1,20 @@
 {
-  "name": "binar-fsw-challenge-04",
+  "name": "synergycamp-challenge4",
   "version": "1.0.0",
-  "description": "Project HTTP Server dan DOM",
-  "main": "server/index.js",
-  "author": "Fikri Rahmat Nurhidayat <fnurhidayat@binar.co.id>",
-  "license": "MIT",
-  "private": false,
+  "description": "Project Challenge 4 Fullstack Developer Binar",
+  "main": "index.js",
   "scripts": {
-    "start": "node server/index.js"
-  }
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robbyfebrian/SynergyCamp-Challenge4.git"
+  },
+  "author": "Robby Febrian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robbyfebrian/SynergyCamp-Challenge4/issues"
+  },
+  "homepage": "https://github.com/robbyfebrian/SynergyCamp-Challenge4#readme"
 }

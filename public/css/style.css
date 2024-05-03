@@ -1,0 +1,272 @@
+:root {
+  --limegreen: #5cb85f;
+  --darkblue: #0d28a6;
+  --grayblue: #f1f3ff;
+  --limeyellow: #f9cc00;
+  --redpink: #fa2c5a;
+  --border: #d0d0d0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  scroll-behavior: smooth;
+  overflow-x: hidden scroll;
+}
+
+.navbar {
+  background-color: var(--grayblue);
+}
+
+.navbar-nav .btn {
+  color: white;
+  background-color: limegreen;
+  border-radius: 2px;
+}
+
+.navbar-toggler {
+  border: transparent;
+}
+
+/* hero-banner start */
+.hero-banner {
+  background-color: var(--grayblue);
+}
+
+.hero-banner-tagline h1 {
+  max-width: 100%;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.hero-banner-tagline p {
+  max-width: 75%;
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 1.25rem;
+}
+
+.hero-banner-tagline .btn {
+  color: white;
+  background-color: limegreen;
+  border-radius: 2px;
+  border-color: limegreen;
+}
+/* hero-banner end */
+
+/* our-services start */
+.our-services-header h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+
+.our-services-header p {
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 1.25rem;
+}
+
+.our-services-item .bi {
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+}
+
+.our-services-item .bi-check {
+  -webkit-text-stroke: 1px;
+  color: darkblue;
+  background-color: var(--grayblue);
+}
+/* our-services end */
+
+/* why-us start */
+.why-us-header h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+
+.why-us-header p {
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 1.25rem;
+}
+
+.why-us-item {
+  width: 17rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.why-us-item h2 {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
+
+.why-us-item p {
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 1.25rem;
+}
+
+.why-us-item .bi {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.why-us-item .bi-hand-thumbs-up {
+  color: white;
+  background-color: var(--limeyellow);
+}
+
+.why-us-item .bi-tag {
+  color: white;
+  background-color: var(--redpink);
+}
+
+.why-us-item .bi-clock {
+  color: white;
+  background-color: var(--darkblue);
+}
+
+.why-us-item .bi-award {
+  color: white;
+  background-color: var(--limegreen);
+}
+/* why-us end */
+
+/* testimonials start */
+.item-box {
+  background-color: var(--grayblue);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+.testimonial-image {
+  width: 80px !important;
+  height: 80px;
+  border-radius: 100%;
+}
+
+.star {
+  align-items: center;
+}
+
+.star .bi {
+  color: var(--limeyellow);
+}
+
+.item-nav .btn {
+  width: 30px;
+  height: 30px;
+  border: var(--border);
+}
+/* testimonials end */
+
+/* cta-banner start */
+.cta-banner {
+  border-radius: 13px;
+  background-color: var(--darkblue);
+  color: white;
+}
+
+.cta-banner .btn {
+  color: white;
+  font-weight: bold;
+  background-color: var(--limegreen);
+  border-radius: 2px;
+}
+/* cta-banner end */
+
+/* filter start */
+.section-filter-car {
+  width: 80%;
+  height: 100px;
+  position: absolute;
+  padding: 1%;
+  top: auto;
+  z-index: 4;
+  transform: translate(0%, -50%);
+  left: 10%;
+  background: white;
+  box-shadow: 0px 0px 9px 1px rgba(181, 179, 179, 0.75);
+  -webkit-box-shadow: 0px 0px 9px 1px rgba(181, 179, 179, 0.75);
+  -moz-box-shadow: 0px 0px 9px 1px rgba(181, 179, 179, 0.75);
+}
+
+.section-car-list {
+  padding: 5% 9% 2% 9%;
+}
+
+.btn {
+  background-color: #5cb85f;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 8px 12px;
+  border-radius: 2px;
+}
+
+.btn:hover {
+  background-color: #138517b4;
+}
+
+.btn:disabled {
+  background-color: #5cb85f;
+  opacity: 0.5;
+}
+
+.blank-image {
+  width: 100%;
+  height: 388px;
+  background-color: grey;
+}
+
+#btn-search {
+  color: white;
+  background-color: limegreen;
+  border-radius: 2px;
+  border: transparent;
+}
+
+/* filter end */
+
+/* footer start */
+.footer-nav {
+  color: black;
+  font-weight: bold;
+}
+
+.footer-social .bi {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: white;
+  background-color: var(--darkblue);
+}
+
+.footer-social .bi-facebook {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: white;
+  background-color: var(--darkblue);
+}
+
+/* footer end */
+
+/* responsive start*/
+@media only screen and (max-width: 450px) {
+  #car-image {
+    height: 230px;
+  }
+
+  .why-us-item {
+    width: auto;
+  }
+}
+/* responsive end */
